@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* NAVIGATION BAR --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.nav {
+    background-color: black;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: larger;
+}    
+
+li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    transition: all .18s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(44, 44, 44);
+    transform: scale(1.05); 
+}
+
+.logo {
+    height: 40px;
+}
+
+.logobtn {
+    background-color: black;
+    transition: all .18s ease-in-out;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logobtn:hover {
+    transform: scale(1.05); 
+    background-color: rgb(44, 44, 44);
+}
+
+/* IMG 1 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.img1 {
+    margin-top: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 840px;
+    background-image: url("pics/maxresdefault.jpg");
+    width: 1490px;
+    background-size: contain;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, .text {
+    color: rgb(255, 255, 255);
+}
+
+.h1 {
+    height: 40px;
+    width: 800px;
+    top: 680px;
+    left: 50px;
+    position: relative;
+}
+
+.text {
+    position: relative;
+    top: 700px;
+    left: 50px;
+    width: 500px;
+}
+
+.learnmore {
+    border: white 2px solid;
+    padding: 5px 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.learnmore:hover {
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+
+/* IMG 2+3 ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.img2p {
+    margin-top: 50px;
+    width: 1490px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img2 {
+    background-image: url("pics/00warehouses-03-mobileMasterAt3x.jpg");
+    height: 800px;
+    width: 720px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all .2s ease-in-out; 
+}
+
+.img2:hover {
+    transform: scale(1.02); 
+}
+
+.ship {
+    height: 0px;
+    text-align: center;
+    position: relative;
+    top: 49%;
+    pointer-events: none;
+}
+
+.vivus1 {
+    padding-top: 100px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgba(50, 50, 93, 0);
+    transition: all .2s ease-in-out; 
+    font-weight: bolder;
+    z-index: 4;
+}
+
+.vivus1:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 145;
+}
+
+.img3 {
+    background-image: url("pics/dezl-photo.jpg");
+    height: 800px;
+    width: 720px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all .2s ease-in-out; 
+}
+
+.img3:hover {
+    transform: scale(1.02); 
+}
+
+.drive {
+    background-color: #0072b1;
+    height: 0px;
+    text-align: center;
+    position: relative;
+    top: 49%;
+    pointer-events: none;
+}
+
+.vivus2 {
+    padding-top: 100px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgba(50, 50, 93, 0);
+    transition: all .2s ease-in-out; 
+    font-weight: bolder;
+}
+
+.vivus2:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+.number {
+    text-decoration: none;
+}
+
+/* SOCIAL MEDIA ICON BUTTONS -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.instalogodiv {
+    background-image: url("pics/circle-degrade-gradient-instagram-abstract-260nw-1461234611.webp");
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.instalogo {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.linkedinlogodiv {
+    background-color: rgb(24, 24, 24);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebooklogodiv {
+    background-color: rgb(24, 24, 24);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.facebooklogo  {
+    height: 35px;
+}
+
+.smbi, .smbl, .smbf {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smbi {
+    background-color: rgb(24, 24, 24);
+    width: 60px; 
+    height: 60px;
+    position: absolute;
+    z-index: 4;
+}
+
+.smbi:hover {
+    background-color: transparent;
+    transition: 500ms;
+}
+
+.smbl:hover {
+    background-color: #0072b1;
+    transition: 500ms;
+}
+
+.smbf:hover {
+    background-color: #3b5998;
+    transition: 500ms;
+}
+
+/* STATS -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.miles {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 50px;
+    width: 1490px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.miles h1 {
+    font-size: 150px;
+    height: 150px;
+    color: #dac400;
+}
+
+.miles h2 {
+    font-size: 30px;
+}
+
+.loads {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 1490px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.loads h1 {
+    font-size: 150px;
+    height: 150px;
+    color: #dac400;
+}
+
+.loads h2 {
+    font-size: 30px;
+}

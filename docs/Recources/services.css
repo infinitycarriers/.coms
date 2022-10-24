@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* NAVIGATION BAR --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.nav {
+    background-color: black;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: larger;
+}    
+
+li a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    transition: all .18s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(44, 44, 44);
+    transform: scale(1.05); 
+}
+
+.logo {
+    height: 40px;
+}
+
+.logobtn {
+    background-color: black;
+    transition: all .18s ease-in-out;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logobtn:hover {
+    transform: scale(1.05); 
+    background-color: rgb(44, 44, 44);
+}
+
+/* MAP --------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.map {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TRAILER TYPES  and BLA ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.abilities {
+    margin-top: 50px;
+    width: 1490px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.refrigerated, .van, .flatbed {
+    background-color: black;
+    height: 300px;
+    width: 456px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.refrigerated h2 {
+    padding-top: 20px;
+}
+
+.van h2 {
+    padding-top: 20px;
+}
+
+.flatbed h2 {
+    padding-top: 20px;
+}
+
+.cringe {
+    margin-top: 50px;
+    width: 1490px;
+    margin-right: auto;
+    margin-left: auto;      
+    display: flex;
+    height: 1000px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.blap {
+    height: 100%;
+    width: 100%;
+    background-color: #7e7e7e;
+}
+
+.cringe h2 {
+    color: black;
+    padding: 450px 100px;
+}
+
+.bw {
+    height: 1000px;
+}
+
+/* QUOTE ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.quote {
+    height: 400px;
+    background-color: black;
+    width: 1490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.quote h1 {
+    padding-bottom: 60px;
+}
+
+.emailus {
+    background-color: #dac400;
+    color: black;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+    font-weight: 1000;
+    transition: all .2s ease-in-out; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailus:hover {
+    transform: scale(1.2);
+}
+
+/* FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+.number {
+    text-decoration: none;
+}
+
+/* SOCIAL MEDIA ICON BUTTONS -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.instalogodiv {
+    background-image: url("pics/circle-degrade-gradient-instagram-abstract-260nw-1461234611.webp");
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.instalogo {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.linkedinlogodiv {
+    background-color: rgb(24, 24, 24);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebooklogodiv {
+    background-color: rgb(24, 24, 24);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.facebooklogo  {
+    height: 35px;
+}
+
+.smbi, .smbl, .smbf {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smbi {
+    background-color: rgb(24, 24, 24);
+    width: 60px; 
+    height: 60px;
+    position: absolute;
+    z-index: 4;
+}
+
+.smbi:hover {
+    background-color: transparent;
+    transition: 500ms;
+}
+
+.smbl:hover {
+    background-color: #0072b1;
+    transition: 500ms;
+}
+
+.smbf:hover {
+    background-color: #3b5998;
+    transition: 500ms;
+}
